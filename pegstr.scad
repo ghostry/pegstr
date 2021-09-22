@@ -11,25 +11,25 @@
 // preview[view:north, tilt:bottom diagonal]
 
 // width of the orifice
-holder_x_size = 15;
+holder_x_size = 50;
 
 // depth of the orifice
-holder_y_size = 15;
+holder_y_size = 50;
 
 // hight of the holder
 holder_height = 20;
 
 // how thick are the walls. Hint: 6*extrusion width produces the best results.
-wall_thickness = 1;
+wall_thickness = 2;
 
 // how many times to repeat the holder on X axis
 holder_x_count = 1;
 
 // how many times to repeat the holder on Y axis
-holder_y_count = 2;
+holder_y_count = 1;
 
 // orifice corner radius (roundness). Needs to be less than min(x,y)/2.
-corner_radius = 10;
+corner_radius = 25;
 
 // Use values less than 1.0 to make the bottom of the holder narrow
 taper_ratio = 1.0;
@@ -38,7 +38,7 @@ taper_ratio = 1.0;
 /* [Advanced] */
 
 // offset from the peg board, typically 0 unless you have an object that needs clearance
-holder_offset = 2.0;
+holder_offset = 5.0;
 
 // what ratio of the holders bottom is reinforced to the plate [0.0-1.0]
 strength_factor = 1;
